@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Météo Live</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- TITRE -->
+    <h1>Météo Live</h1>
+
+    <!-- HEURE -->
+    <div class="time">
+        <p id="time"></p>
+        <p id="date"></p>
+    </div>
+
+    <!-- APPLICATION MÉTÉO -->
+    <div class="weather-app">
+
+        <!-- CHAMP DE RECHERCHE -->
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="cityInput" 
+                placeholder="Entrer une ville..." 
+                aria-label="Recherche ville"
+            >
+            <button id="searchBtn">Rechercher</button>
+        </div>
+
+        <!-- RÉSULTAT MÉTÉO -->
+        <div class="weather-result hide">
+
+            <h2 id="cityName"></h2>
+
+            <p id="temperature"></p>
+
+            <!-- STATUS -->
+            <div class="status">
+                <p id="loading" class="loading hidden">Chargement...</p>
+                <p id="error" class="error hidden"></p>
+            </div>
+
+            <!-- ICÔNE -->
+            <img id="weatherIcon" alt="Icône météo">
+
+            <!-- DESCRIPTION -->
+            <p id="description"></p>
+
+            <!-- PHRASE -->
+            <p id="weatherPhrase">Recherchez une ville pour commencer</p>
+
+            <!-- INFOS BONUS -->
+            <div class="extra-info">
+                <p id="humidity"></p>
+                <p id="wind"></p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
