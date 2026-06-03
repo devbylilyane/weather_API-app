@@ -50,5 +50,3 @@ Ce projet m’a permis de pratiquer :
 - Manipulation du DOM  
 
 ---
-
-## 📁 Structure du projet
