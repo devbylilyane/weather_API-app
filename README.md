@@ -4,7 +4,7 @@ Application météo interactive développée en JavaScript utilisant l'API OpenW
 
 ---
 
-## 🚀 Aperçu
+## Aperçu
 
 Cette application permet de rechercher une ville et d'afficher en temps réel :
 - la température
