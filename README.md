@@ -34,7 +34,7 @@ L’interface inclut également une gestion des états :
 
 ## 📸 Aperçu du projet
 
-*(Ajoute ici une capture d’écran de ton application)*
+![Aperçu de l'app](API-app.png)
 
 ---
 
