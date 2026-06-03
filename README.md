@@ -34,7 +34,7 @@ L’interface inclut également une gestion des états :
 
 ## 📸 Aperçu du projet
 
-![Aperçu de l'app](API-app.png)
+![Aperçu de l'app](images/API-app.png)
 
 ---
 
