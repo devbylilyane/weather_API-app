@@ -1,53 +1,53 @@
 # 🌤️ Weather Live App
 
-Application météo interactive développée en JavaScript utilisant l'API OpenWeatherMap.
+Application météo interactive développée en JavaScript utilisant l’API OpenWeatherMap.
 
 ---
 
-## Aperçu
+## 📸 Preview
 
-Cette application permet de rechercher une ville et d'afficher en temps réel :
-- la température
-- la description météo
-- une icône dynamique
-- l'humidité
-- la vitesse du vent
-- la météo de la localisation actuelle (géolocalisation)
+![Aperçu de l'application](images/API-app.png)
 
-L’interface inclut également une gestion des états :
-- chargement (loading)
-- erreurs (ville introuvable / réseau)
-- animation d’apparition des résultats
+---
+👉 https://devbylilyane.github.io/weather_API-app/
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🧠 À propos du projet
 
-- HTML5
-- CSS3 (glassmorphism + animations)
-- JavaScript (ES6)
-- Fetch API
-- OpenWeatherMap API
-- Geolocation API
+Weather Live App est une application web permettant d’obtenir la météo d’une ville en temps réel.  
+Elle consomme une API REST externe et affiche les données de manière dynamique dans l’interface.
 
----
-
-## 📸 Aperçu du projet
-
-![Aperçu de l'app](images/API-app.png)
+Ce projet m’a permis de pratiquer :
+- les requêtes asynchrones avec Fetch API
+- la manipulation du DOM
+- la gestion des états (loading / erreurs / affichage dynamique)
+- l’utilisation d’une API externe
 
 ---
 
 ## ⚙️ Fonctionnalités
 
-- 🔎 Recherche de météo par ville
-- 📍 Détection automatique de la position de l’utilisateur
-- 🌡️ Affichage température en temps réel
-- 🌥️ Icônes météo dynamiques
-- 💨 Vent et humidité
-- ⏳ État de chargement
-- ❌ Gestion des erreurs utilisateur
-- 🎨 Interface moderne et responsive
+- 🔎 Recherche de météo par ville  
+- 📍 Détection automatique de la localisation (géolocalisation)  
+- 🌡️ Affichage de la température en temps réel  
+- 🌥️ Icônes météo dynamiques  
+- 💨 Affichage du vent et de l’humidité  
+- ⏳ État de chargement  
+- ❌ Gestion des erreurs (ville introuvable / réseau)  
+- 🎨 Interface moderne et responsive  
+
+---
+
+## 🛠️ Technologies utilisées
+
+- HTML5  
+- CSS3 (glassmorphism, animations)  
+- JavaScript (ES6+)  
+- Fetch API  
+- API REST (OpenWeatherMap)  
+- Geolocation API  
+- Manipulation du DOM  
 
 ---
 
